@@ -1,0 +1,62 @@
+.errmsg {
+  color: firebrick;
+}
+
+
+body {
+  font: 1.5rem, sans-serif;
+  min-height: 100vh;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 0.5em;
+  border-radius: 15px;
+}
+
+.btn {
+  border: 2px solid black;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: min(100%, 500px);
+}
+
+a,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: blue;
+}
+
+.login form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.users {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
