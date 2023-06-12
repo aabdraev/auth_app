@@ -63,7 +63,7 @@ const Register = () => {
                 {errMsg}
             </p>
 
-            <h1>Register</h1>
+            <h1>Create account</h1>
 
             <form onSubmit={handleSubmit}>
                 <label htmlFor="username">Username:</label>
